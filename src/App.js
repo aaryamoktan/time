@@ -4,6 +4,7 @@ import './App.css';
 import './app.scss'
 
 function App() {
+  
   const [time, settime1] = useState({ms:0,s:0,m:0,h:0})
   const [ status,setstatus] = useState(0)
   const [ctime,settime] =useState(new Date().toLocaleTimeString())

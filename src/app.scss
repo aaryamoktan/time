@@ -4,7 +4,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-.clock
+@media screen and (min-width:1024px) {
+    .clock
 {
     position:relative;
     width:100%;
@@ -30,14 +31,66 @@
     {
         position:relative;
         top:55%;
-        margin-left:43%;
+        margin-left:13%;
         font-size: 30px;
        
         button{
             position:relative;
             text-align: center;
             width:15%;
-            left:4.5%;
+            margin-left:-23%;
+        }
+        .ong
+        {
+            position:relative;
+            margin-left:-20%;
+        }
+        .ong1
+        {
+            position:relative;
+            margin-left:0%
+        }
+    }
+}
+}
+@media screen and (min-width:676px) and (max-width:1024px) {
+    .clock
+{
+    position:relative;
+    width:100%;
+    height:100vh;
+    background:black;
+    color:white;
+    .clockinner
+    {
+        position:relative;
+        width:20%;
+        height:10%;
+        top:45%;
+        left:40%;
+        font-size: 30px;
+        border: 2px solid white;
+        text-align: center;
+        p{
+            position:relative;
+            
+            margin-top: 17px;
+            
+            color:red;
+        }
+    }
+    .stopwatch
+    {
+        position:relative;
+        top:55%;
+        margin-left:10%;
+        font-size: 30px;
+       
+        button{
+            position:relative;
+            text-align: center;
+            width:15%;
+            margin-left: -15%;
         }
         .ong
         {
@@ -47,7 +100,62 @@
         .ong1
         {
             position:relative;
-            left:-3%;
+            margin-left:0%;
+        }
+    }
+}
+    
+}
+@media screen and (max-width:676px) {
+    
+}
+.clock
+{
+    position:relative;
+    width:100%;
+    height:100vh;
+    background:black;
+    color:white;
+    .clockinner
+    {
+        position:relative;
+        width:40%;
+        height:10%;
+        top:35%;
+        left:30%;
+        font-size: 30px;
+        border: 2px solid white;
+        text-align: center;
+        text-align: center;
+        p{
+            margin-top: 15px;
+            color:red;
+        }
+    }
+    .stopwatch
+    {
+        position:relative;
+        width:50%;
+        left:30%;
+        top:40%;
+        
+        font-size: 30px;
+       
+        button{
+            position:relative;
+            text-align: center;
+            width:15%;
+            left:30%;
+        }
+        .ong
+        {
+            position:relative;
+            left:16%;
+        }
+        .ong1
+        {
+            position:relative;
+            left:25%;
         }
     }
 }
